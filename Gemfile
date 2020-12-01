@@ -5,6 +5,10 @@ ruby '2.6.6'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 6.0.3', '>= 6.0.3.4'
+gem 'spree', '~> 4.1'
+gem 'spree_auth_devise', '~> 4.2'
+gem 'spree_gateway', '~> 3.9'
+
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3', '~> 1.4'
 # Use Puma as the app server
