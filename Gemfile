@@ -11,6 +11,8 @@ gem 'spree_gateway', '~> 3.9'
 
 gem 'pg', '~> 1.2', '>= 1.2.3'
 
+gem 'sidekiq'
+
 # Use Puma as the app server
 gem 'puma', '~> 4.1'
 # Use SCSS for stylesheets
