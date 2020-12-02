@@ -100,6 +100,7 @@ GEM
     crass (1.0.6)
     css_parser (1.7.1)
       addressable
+    dalli (2.7.11)
     deface (1.5.3)
       nokogiri (>= 1.6)
       polyglot
@@ -399,6 +400,7 @@ DEPENDENCIES
   bootsnap (>= 1.4.2)
   byebug
   capybara (>= 2.15)
+  dalli
   jbuilder (~> 2.7)
   listen (~> 3.2)
   pg (~> 1.2, >= 1.2.3)
