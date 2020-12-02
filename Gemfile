@@ -16,6 +16,7 @@ gem 'pg', '~> 1.2', '>= 1.2.3'
 gem 'sidekiq'
 gem 'dalli'
 gem 'bugsnag'
+gem 'aws-sdk-s3', require: false
 
 # Use Puma as the app server
 gem 'puma', '~> 4.1'
