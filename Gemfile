@@ -13,6 +13,7 @@ gem 'pg', '~> 1.2', '>= 1.2.3'
 
 gem 'sidekiq'
 gem 'dalli'
+gem 'bugsnag'
 
 # Use Puma as the app server
 gem 'puma', '~> 4.1'
