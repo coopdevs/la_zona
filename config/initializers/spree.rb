@@ -10,7 +10,7 @@
 # In order to initialize a setting do:
 # config.setting_name = 'new value'
 Spree.config do |config|
-  config.admin_interface_logo = 'https://la-zona-staging.s3.us-west-001.backblazeb2.com/admin/test.png'
+  config.admin_interface_logo = 'https://la-zona-staging.s3.us-west-001.backblazeb2.com/admin/logo-opcions.png'
 end
 
 # Configure Spree Dependencies
