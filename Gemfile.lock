@@ -1,11 +1,12 @@
 GIT
   remote: https://github.com/spree-contrib/spree_multi_vendor.git
-  revision: 9cdba236f59d3a20f26ccb1f5bf5e0adf6e008b0
+  revision: adb96983a05bc3a8b5dd088c1ebf8bc069a24212
+  tag: v1.5.0
   specs:
-    spree_multi_vendor (1.5.3)
+    spree_multi_vendor (1.5.0)
       deface (~> 1.0)
-      spree_backend (>= 3.7.0, < 5.0)
-      spree_core (>= 3.7.0, < 5.0)
+      spree_backend (>= 3.2.0, < 5.0)
+      spree_core (>= 3.2.0, < 5.0)
       spree_extension
 
 GEM

@@ -5,11 +5,10 @@ ruby '2.7.2'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 6.0.3', '>= 6.0.3.4'
-
 gem 'spree', '~> 4.1'
 gem 'spree_auth_devise', '~> 4.2'
 gem 'spree_gateway', '~> 3.9'
-gem 'spree_multi_vendor', github: 'spree-contrib/spree_multi_vendor'
+gem 'spree_multi_vendor', github: 'spree-contrib/spree_multi_vendor', tag: 'v1.5.0'
 
 gem 'pg', '~> 1.2', '>= 1.2.3'
 
