@@ -12,9 +12,9 @@ backblaze:
   service: S3
   endpoint: 'https://s3.us-west-001.backblazeb2.com'
   region: s3.us-west-001
-  access_key_id: <%= ENV.fetch("B2_ACCESS_KEY_ID") %>
-  secret_access_key: <%= ENV.fetch("B2_SECRET_ACCESS_KEY") %>
-  bucket: <%= ENV.fetch("B2_BUCKET_NAME") %>
+  access_key_id: <%= ENV["B2_ACCESS_KEY_ID"] %>
+  secret_access_key: <%= ENV["B2_SECRET_ACCESS_KEY"] %>
+  bucket: <%= ENV["B2_BUCKET_NAME"] %>
 
 # Use rails credentials:edit to set the AWS secrets (as aws:access_key_id|secret_access_key)
 # amazon:
